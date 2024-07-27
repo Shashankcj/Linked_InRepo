@@ -1,0 +1,24 @@
+.work{
+    height: 70vh;
+    display: flex;
+    background-color: rgb(185, 179, 169);
+    align-items: center;
+}
+
+.work img{
+    height: 400px;
+    width: 500px;
+}
+
+.work h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: brown;
+    padding-left: 70px;
+}
+
+.work p{
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 70px;
+}

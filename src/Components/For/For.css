@@ -1,0 +1,48 @@
+.for{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.for img{
+    width: 500px;
+    height: 120vh;
+}
+
+.for_option{
+    padding-left: 50px;
+    padding-right: 100px;
+    background-color: beige;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.for_option h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: brown;
+}
+
+.for_option h2{
+    font-size: 30px;
+    font-weight: 100;
+} 
+
+.for_option button{
+    background-color: rgb(232, 219, 201);
+    color: black;
+    border-radius: initial;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    width: 350px;
+    border: 1px solid black;
+    /* transition: background-color 0.3s ease; */
+}
+
+.for_option button:hover{
+    background-color: grey;
+}

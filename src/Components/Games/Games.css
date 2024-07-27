@@ -1,0 +1,42 @@
+.games{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.games_right{
+    padding-right: 200px;
+}
+
+.games h1{
+    font-size: 50px;
+    font-weight: 300;
+    padding-left: 50px;
+}
+
+.games p{
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 50px;
+}
+
+.games_option{
+    padding-left: 10px;
+}
+
+.games_option button{
+    background-color: white;
+    color: black;
+    border-radius: initial;
+    padding: 10px 20px;
+    margin: 5px 3px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    width: 150px; 
+}
+
+.games_option button:hover{
+    background-color: grey;
+}

@@ -1,0 +1,68 @@
+.footer {
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  .footer-links a {
+    margin: 10px;
+    color: #333; 
+    text-decoration: none; 
+    font-size: 16px; 
+  }
+  .footer-links p {
+    margin: 10px;
+    color: #333; 
+    text-decoration: none; 
+    font-size: 16px; 
+  }
+  
+  .footer-links a:hover {
+    color: #0077B5; 
+  }
+ 
+
+.footer-image {
+    position: absolute;
+    bottom: 5px; 
+    left: 10px;
+    width: 10px; 
+    height: auto;
+}
+.footer-image img{
+  height: 20px;
+  width: 100px;
+  margin-left: 7pc;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.arrow {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-toggle {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}

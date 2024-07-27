@@ -1,0 +1,48 @@
+.connect {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    /* margin: 20px;  */
+    height: 130vh;
+  }
+
+.connect_left h1{
+ font-size: 30px; 
+ font-weight: 400;
+ margin-bottom: 10px; 
+}
+
+.connect_right h1 {
+  font-size: 30px; 
+  font-weight: 400;
+  margin-bottom: 10px; 
+}
+
+.connect_left button{
+    background-color: white; 
+    color: black; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.connect_right button {
+  background-color: #ffffff; 
+  color: black; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.connect_left button:hover{
+   background-color: grey;
+}
+
+.connect_right button:hover {
+   background-color: grey; 
+}

@@ -1,0 +1,50 @@
+.tool{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+
+.tool_left{
+    margin-left: 10px;
+    
+}
+
+.tool_left h1{
+    font-size: 50px;
+    font-weight: 100;
+    padding-left: 40px;
+}
+
+.tool_left p{
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 40px;
+}
+
+.tool_option{
+    padding-left: 200px;
+    gap: 10px;
+}
+
+.tool_option p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.573);
+}
+
+.tool_option button{
+    background-color: white;
+    color: black;
+    border-radius: initial;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    width: 300px;
+}
+
+.tool_option button:hover{
+    background-color: grey;
+}

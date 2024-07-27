@@ -1,0 +1,112 @@
+.apple-container {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+  }
+   
+  .apple-header .appleCol1 {
+    width: 10%;
+    padding: 20px;
+    margin-inline-start: -80px;
+    margin-block-start: -90px;
+    }
+
+     .apple_txt{
+   margin-left: 70px;
+   font-size: 12px;   
+}
+
+   .Apple_logo {
+    margin-top: 100px;
+    margin-left: 60px;
+  } 
+  .apple-header .appleCol2 {
+    width: 100%;
+    padding: 20px;
+  }
+  .apple-header .appleCol3 {
+    width: 10%;
+    padding: 20px;
+  }
+  .apple-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+   
+  .apple-header  .submit{
+border: none;  
+border-style: none;}
+  .apple-header img {
+    margin-right: 00px;
+    size: 5px;
+  }
+   
+  .app-hr-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(215, 212, 212);
+  }
+  .apple-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+    border-radius: 5px;
+    background-color: white;
+  }
+   
+  .apple-content img {
+    margin-bottom: 20px;
+  }
+   
+  .apple-content h2 {
+    margin-bottom: 10px;
+  }
+   
+  .form-group {
+    margin-bottom: 15px;
+  }
+   
+  .form-group input {
+    width: 125%;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #8588ee;
+    border-radius: 15px;
+    box-sizing: border-box;
+  margin-right: 200px;
+  margin-left: -50px;
+  }
+   
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+   
+  .info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 230px;
+    margin-right: 250px;
+  }
+   
+  .info img {
+    margin-right: 10px;
+  }
+ 
+  .appleCol1 {
+    padding-left: 90px;
+    margin-left: -60px;
+
+  }

@@ -1,0 +1,50 @@
+.explore{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}
+
+.explore h1{
+    font-size: 50px;
+    font-weight: 100;
+    padding-left: 70px;
+    padding-right: 90px;
+}
+
+.explore p{
+    padding-left: 70px;
+    padding-right: 90px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.explore_option{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.explore_option button{
+    background-color: white;
+    color: black;
+    border-radius: initial;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    width: 150px;
+}
+
+.explore_option button:hover{
+    background-color: grey; 
+}  
+
+.blue-button{
+    border: 2px solid blue;
+    color: blue;
+    /* background-color: white;
+    text-decoration-color: blue; */
+}

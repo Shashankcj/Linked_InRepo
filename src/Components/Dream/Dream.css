@@ -1,0 +1,25 @@
+.dream{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.dream_right{
+    background-color: rgb(231, 246, 241);
+    height: 80vh; 
+    padding-left: 330px;
+    margin-left: 250px;
+}
+  
+.dream_right h1{
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 400;
+    color: brown;
+}
+
+.dream_right h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+

@@ -1,0 +1,44 @@
+.job{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.job h1{
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 10;
+}
+
+.job_option{
+   padding-left: 200px;
+}
+
+.job_option h2{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.539);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.job button{
+    background-color: white;
+    color: black;
+    border-radius: initial;
+    padding: 10px 20px;
+    margin: 5px 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    width: 150px;
+    /* gap: 10px; */
+}
+
+.job button:hover{
+    background-color: grey;
+}
